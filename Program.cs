@@ -7,6 +7,13 @@ namespace MoodAnalyzer
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Mood Analyzer");
+            MoodAnalyse moods = new MoodAnalyse();
+            moods.AnalyseMood();
+           
+
+
+            
+            
         }
     }
 }
