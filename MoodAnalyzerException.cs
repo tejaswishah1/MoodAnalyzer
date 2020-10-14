@@ -8,8 +8,8 @@ namespace MoodAnalyzer
     {
         public enum ExceptionType
         {
-            NULL_METHOD_TYPE,
-            EMPTY_STRING_TYPE
+          N0_SUCH_CLASS,
+          NO_SUCH_METHOD
         }
         private readonly ExceptionType type;
 

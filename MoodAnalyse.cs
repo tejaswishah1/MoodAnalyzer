@@ -25,7 +25,7 @@ namespace MoodAnalyzer
                     throw new MoodAnalyzerException(MoodAnalyzerException.ExceptionType.EMPTY_STRING_TYPE, "Mood cannot be empty");
                     
                 }
-                if (this.message.Contains("sad".ToLower()))
+               else if (this.message.Contains("sad".ToLower()))
                 {
                     return "SAD";
                 }
@@ -42,7 +42,12 @@ namespace MoodAnalyzer
                 
             }
                 }
-            }
+
+        public static object CreateMoodAnalyser(string v1, string v2)
+        {
+            throw new NotImplementedException();
+        }
+    }
         }
     
 
